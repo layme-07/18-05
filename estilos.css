@@ -1,0 +1,101 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   body {
+       background-color: #F9F6F0; 
+       font-family: 'Montserrat', sans-serif; 
+       font-size: 18px; 
+       line-height: 1.6; 
+       color: #333333; 
+       margin: 0; 
+       padding: 0;
+   }
+   h1, h2, h3, h4, h5, h6 {
+       font-family: 'Lora', serif;
+       text-align: center; 
+   }
+   a {
+       color: #B97332;
+       text-decoration: none;
+   }
+   
+   a:visited {
+       color: #6A4E2E;
+   }
+   strong {
+       color: #C0392B;
+   }
+   a[target="_blank"]::after {
+       content: " ↗";
+   }
+   header {
+       background-color: #1E2A38; 
+       color: #F4C542;
+       padding: 2rem 1rem;
+       text-align: center;
+   }
+   header h1 {
+       font-size: 2.5rem;
+       text-transform: uppercase;
+       margin-top: 0;
+   }
+   
+   nav {
+       background-color: #3A4A3F;
+       padding: 1rem;
+   }
+   nav a {
+       color: #FFFFFF;
+       margin-right: 1.5rem;
+   }
+   footer {
+       background-color: #2C3E2B;
+       color: #E6E6E6;
+       padding: 1.5rem 1rem;
+       text-align: center;
+   }
+   footer a {
+       color: #E6E6E6;
+   } #evento-principal {
+       background-color: #FFFFFF;
+       padding: 1.5rem;
+       border-radius: 20px;
+       margin: 1.5rem auto; 
+   }
+   article {
+       border-bottom: 2px solid #D1C7B8;
+       margin-bottom: 2rem;
+       padding-bottom: 1rem;
+   }
+   figure img {
+       border-radius: 12px;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   }
+   .destacado {
+       color: #B97332;
+       font-weight: bold;
+       border-left: 4px solid #F4C542;
+       padding-left: 1rem;
+   }
+   aside {
+       background-color: #E8E0D5;
+       padding: 1rem;
+       border-left: 6px solid #F4C542;
+       margin: 1.5rem 0;
+   }
+   @media (max-width: 767px) {
+       body {
+           font-size: 16px;
+       }
+   
+       nav {
+           text-align: center; 
+       }
+   
+       nav a {
+           display: block; 
+           margin: 0.5rem 0; 
+       }
+   }
